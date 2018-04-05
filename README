@@ -1,0 +1,11 @@
+Silvia Marogel 325CB
+Tema 2
+
+Clasa Main este cea ce va fi rulata, ce contine apelurile de functii.
+
+Clasa ReadGraph este cea care citeste din fisierul de intrare detaliile. Are metode putin cam lungi si unele lucruri stiu ca nu sunt scrise in spiritul OOP, am incercat cat de mult am putut sa nu mai gandesc in C. M-am folosit de multe atribute statice ca sa imi usureze munca, iar pe parcurs mi-am dat seama ca face prea multe lucruri, dar ar dura prea mult sa mai modific totul.
+
+Pentru cele 3 tipuri de noduri, am facut o clasa Node, generica, iar clasele NodA, NodB si NodC extind aceasta clasa. Am facut asta deoarece e mai simplu de utilizat.
+Interfata NodContainer este implementata de clasele MyVector, MyList si MySet, ce la randul lor sunt wrapperi peste clasele ArrayList, LinkedList si HashSet din java.util.
+Clasa Graph este cea care creeaza graful si face serializarea, folosind metoda DFS.
+Clasa Deserialize este cea care face (de fapt, ar trebui sa faca) deserializarea. Este incompleta, adica doar citeste si creeaza nodurile, fara listele de adiacenta. Si nici nu tine log-urile.
